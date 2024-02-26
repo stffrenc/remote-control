@@ -1,4 +1,4 @@
-package edu.iu.habahram.remotecontroller.model;
+package edu.iu.stffrenc.remotecontroller.model;
 
 //
 // This is the invoker

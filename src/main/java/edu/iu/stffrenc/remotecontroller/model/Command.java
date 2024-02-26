@@ -1,4 +1,4 @@
-package edu.iu.habahram.remotecontroller.model;
+package edu.iu.stffrenc.remotecontroller.model;
 
 public interface Command {
     String execute();

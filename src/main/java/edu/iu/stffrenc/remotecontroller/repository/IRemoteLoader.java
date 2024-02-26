@@ -1,6 +1,6 @@
-package edu.iu.habahram.remotecontroller.repository;
+package edu.iu.stffrenc.remotecontroller.repository;
 
-import edu.iu.habahram.remotecontroller.model.DeviceData;
+import edu.iu.stffrenc.remotecontroller.model.DeviceData;
 
 import java.util.List;
 

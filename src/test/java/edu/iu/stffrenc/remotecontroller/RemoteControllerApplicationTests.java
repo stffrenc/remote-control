@@ -1,4 +1,4 @@
-package edu.iu.habahram.remotecontroller;
+package edu.iu.stffrenc.remotecontroller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

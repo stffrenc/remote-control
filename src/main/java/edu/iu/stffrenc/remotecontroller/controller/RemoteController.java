@@ -1,8 +1,8 @@
-package edu.iu.habahram.remotecontroller.controller;
+package edu.iu.stffrenc.remotecontroller.controller;
 
-import edu.iu.habahram.remotecontroller.model.DeviceData;
-import edu.iu.habahram.remotecontroller.repository.IRemoteLoader;
-import edu.iu.habahram.remotecontroller.repository.RemoteLoader;
+import edu.iu.stffrenc.remotecontroller.model.DeviceData;
+import edu.iu.stffrenc.remotecontroller.repository.IRemoteLoader;
+import edu.iu.stffrenc.remotecontroller.repository.RemoteLoader;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/remotes")
 public class RemoteController {
 
-    IRemoteLoader remoteLoader = new RemoteLoader();
+    IRemoteLoader remoteLoader = RemoteLoader.getInstance();
 
     @PostMapping("/{id}")
     public boolean setup(@PathVariable int id, @RequestBody List<DeviceData> devices) {
